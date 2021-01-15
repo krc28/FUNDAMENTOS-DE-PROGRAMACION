@@ -8,4 +8,4 @@ if (estatura >= "180"):
 elif (estatura == "155"):
     print ("eres pochinki")
 else:
-    print ("eres pequeño")
+    print ("eres enano")
