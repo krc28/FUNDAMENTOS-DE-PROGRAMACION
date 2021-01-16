@@ -25,8 +25,7 @@ INICIO
  FIN IF
 FIN   
 """
-costo = 1.500 
-horas = 0 + 1 
-print ("ingresa el tiempo de estacionamiento")
-horas = input("horas:")
-minutos = input("minutos:") 
+horas = input("ingresa las horas de estacionamiento")
+minutos = input("ingresa los minutos de estacionamiento")
+costo = 1500
+tiempo = costo * horas
