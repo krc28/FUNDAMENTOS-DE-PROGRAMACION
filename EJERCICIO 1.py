@@ -18,9 +18,11 @@ INICIO
 FIN IF
 FIN   
 """
-horas = input("ingresa las horas de estacionamiento")
-minutos = input("ingresa los minutos de estacionamiento")
+horas = int(input("ingresa las horas de estacionamiento"))
+minutos = int(input("ingresa los minutos de estacionamiento"))
 costo = 1500
 tiempo = costo * horas
-if (minutos == "0"):
-   print (int(tiempo))
+if (minutos == 0):
+   print (tiempo)
+elif (minutos >= 1):
+   print (tiempo + costo)
