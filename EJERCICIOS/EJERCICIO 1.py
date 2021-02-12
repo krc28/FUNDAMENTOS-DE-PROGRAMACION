@@ -23,6 +23,6 @@ minutos = int(input("ingresa los minutos de estacionamiento "))
 costo = 1500
 tiempo = costo * horas
 if (minutos == 0):
-   print (tiempo)
+   print (tiempo )
 elif (minutos >= 1):
-   print (tiempo + costo)
+   print (tiempo + costo )
