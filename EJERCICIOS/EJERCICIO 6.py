@@ -1,9 +1,9 @@
 """
 Diseñe un algoritmo que determine quienes son contemporáneos entre Juan, Mario y Pedro.
  """
-edad_j = int (input ("Juan ingrese su edad "))
-edad_m = int (input ("Mario ingrese su edad "))
-edad_p = int (input ("Pedro ingrese su edad "))
+edad_j = int (input ("Juan ingrese su edad: "))
+edad_m = int (input ("Mario ingrese su edad: "))
+edad_p = int (input ("Pedro ingrese su edad: "))
 if (edad_j == edad_m) and (edad_j == edad_p):
     print ("Juan, Mario y Pedro son contemporáneos")
 elif (edad_j == edad_m) and (edad_j != edad_p):
