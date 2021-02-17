@@ -2,7 +2,6 @@
 El promedio de prácticas de un curso se calcula en base a cuatro prácticas calificadas 
 de las cuales se elimina la nota menor y se promedian las tres notas más altas.
 Diseñe un algoritmo que determine la nota eliminada y el promedio de prácticas de un estudiante.
-(int (promedio_notas) - int (nota_eliminada)) / 3
  """
 nota1 = float (input ("ingrese la primera nota de práctica: "))
 nota2 = float(input ("ingrese la segunda nota de práctica: "))
