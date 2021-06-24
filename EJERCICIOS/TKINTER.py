@@ -16,7 +16,7 @@ title_label = Label(main_frame,
                     justify= CENTER)
 title_label.pack()
 imagen = PhotoImage(file = "pochinki.png")
-img_label = Label(main_frame,
-                  image = imagen)
+img_label = Label(main_frame, 
+                  image = imagen,)
 img_label.pack()
 main_window.mainloop()
