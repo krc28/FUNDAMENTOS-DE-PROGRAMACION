@@ -15,7 +15,7 @@ title_label = Label(main_frame,
                     fg = "#FF1493",
                     justify= CENTER)
 title_label.pack()
-imagen = PhotoImage(file = "EJERCICIOS\chis.png")
+imagen = PhotoImage(file = "FUNDAMENTOS-DE-PROGRAMACION\EJERCICIOS\chis.png")
 img_label = Label(main_frame, 
                   image = imagen,
                   bg = "#FF1253")              
